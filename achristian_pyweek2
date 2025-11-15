@@ -1,0 +1,17 @@
+# Number Classifier Program
+# This program determines whether a number is positive, negative, or zero.
+
+print("Welcome to the Number Classifier!")
+
+# Get user input
+num = float(input("Enter a number: "))
+
+# Flow control + comparison operators
+if num > 0:
+    print("The number is positive.")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+print("Thank you for using the Number Classifier!")
